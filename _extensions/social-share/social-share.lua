@@ -21,6 +21,8 @@ function Meta(m)
   else 
     post_title = pandoc.utils.stringify(m.title)
   end
+  local share_note = pandoc.utils.stringify(m.share.note)
+   
   if m.share.twitter then
     share_text = share_text .. '<a href="https://twitter.com/share?url='.. share_url .. '&text='.. post_title ..'" target="_blank" class="twitter"><i class="fab fa-twitter fa-fw fa-lg"></i></a>'
   end
