@@ -43,5 +43,5 @@ function Meta(m)
     share_text = share_text .. '<a href="https://www.tumblr.com/share/link?url='.. share_url ..'&name='.. post_title ..'" target="_blank" class="tumblr"><i class="fa-brands fa-tumblr fa-fw fa-lg"></i></a>'
   end
   share_text = share_text .. share_end
-  quarto.doc.includeText("in-header", share_text)
+  quarto.doc.includeText("before-body", share_text)
 end
