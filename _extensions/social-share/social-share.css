@@ -2,7 +2,7 @@
 .social-share {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: initial;
   flex-wrap: wrap;
 }
 
@@ -21,69 +21,69 @@
 }
 
 .social-share a.facebook {
-  border-color: #4267B2;
-    color: #4267B2;
+#  border-color: #4267B2;
+#    color: #4267B2;
 }
 
 .social-share a.facebook:hover {
-  background: #4267B2;
-    color: white;
+#  background: #4267B2;
+    color: gray;
 }
 
 .social-share a.twitter {
-  border-color: #1DA1F2;
-    color: #1DA1F2;
+#  border-color: #1DA1F2;
+#    color: #1DA1F2;
 }
 
 .social-share a.twitter:hover {
-  background: #1DA1F2;
-    color: white;
+#  background: #1DA1F2;
+    color: gray;
 }
 
 .social-share a.reddit {
-  border-color: #FF4500;
-    color: #FF4500;
+#  border-color: #FF4500;
+#    color: #FF4500;
 }
 .social-share a.reddit:hover {
-  background: #FF4500;
-    color: white;
+#  background: #FF4500;
+    color: gray;
 }
 
 .social-share a.stumbleupon {
-  border-color: #EB471D;
-    color: #EB471D;
+#  border-color: #EB471D;
+#    color: #EB471D;
 }
 
 .social-share a.stumbleupon:hover {
-  background: #EB471D;
-    color: white;
+#  background: #EB471D;
+    color: gray;
 }
 
 .social-share a.tumblr {
-  border-color: #35465C;
-    color: #35465C;
+#  border-color: #35465C;
+#    color: #35465C;
 }
 .social-share a.tumblr:hover {
-  background: #35465C;
-    color: white;
+#  background: #35465C;
+    color: gray;
 }
 
 .social-share a.linkedin {
-  border-color: #2867B2;
-    color: #2867B2;
+#  border-color: #2867B2;
+#    color: #2867B2;
 }
 
 .social-share a.linkedin:hover {
-  background: #2867B2;
-    color: white;
+#  background: #2867B2;
+    color: gray;
 }
 
 .social-share a.email {
-  border-color: #00A4EF;
-    color: #00A4EF;
+#  border-color: #00A4EF;
+#    color: #00A4EF;
 }
 
 .social-share a.email:hover {
-  background: #00A4EF;
-    color: white;
+#  background: #00A4EF;
+    color: gray;
 }
