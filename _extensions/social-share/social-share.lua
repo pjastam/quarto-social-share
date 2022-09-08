@@ -23,7 +23,7 @@ function Meta(m)
   end
   
   local share_note = pandoc.utils.stringify(m.share.note)
-  share_text = share_text .. '<blockquote><i>' .. share_note .. '</i>'
+  share_text = share_text .. '<p><blockquote><i>' .. share_note .. ' </i><br>'
   if m.share.twitter then
     share_text = share_text .. '<a href="https://twitter.com/share?url='.. share_url .. '&text='.. post_title ..'" target="_blank" class="twitter"><i class="fab fa-twitter fa-fw fa-lg"></i></a>'
   end
@@ -45,6 +45,6 @@ function Meta(m)
   if m.share.tumblr then
     share_text = share_text .. '<a href="https://www.tumblr.com/share/link?url='.. share_url ..'&name='.. post_title ..'" target="_blank" class="tumblr"><i class="fa-brands fa-tumblr fa-fw fa-lg"></i></a>'
   end
-  share_text = share_text .. '</blockquote>' .. share_end
+  share_text = share_text .. '</blockquote></p>' .. share_end
   quarto.doc.includeText("before-body", share_text)
 end
